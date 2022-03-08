@@ -1,0 +1,51 @@
+<html>
+<head>
+<title> snake and ladder </title>
+<style>
+body{
+     background-repeat:no-repeat;}
+#a{margin-left:290px;}
+#b{margin-left:50px;margin-top:100px}
+#c{margin-left:700px; margin-top:-600px;}
+#d{margin-top:-680px;margin-left:110px;}
+
+#j{background:black;height:50px;width:50px;margin-left:38px;margin-top:445px}
+</style>
+</head>
+<body background="images/table.png">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+    $("#j").click(function(){
+$("#j").animate({left:'890px'});
+$("#j").animate({top:'250px'});
+$("#j").animate({left:'10px'});
+$("#j").animate({top:'160px'});
+$("#j").animate({left:'690px'});
+$("#j").animate({top:'-250px'});
+$("#j").animate({left:'10px'});
+$("#j").animate({top:'-330px'});
+$("#j").animate({left:'890px'});
+$("#j").animate({top:'-410px'});
+$("#j").animate({left:'590px'});
+$("#j").animate({top:'-80px'});
+$("#j").animate({left:'300px'});
+$("#j").animate({left:'10px'});
+$("#j").animate({top:'-170px'});
+$("#j").animate({left:'100px'});
+$("#j").animate({top:'-410px'});
+$("#j").animate({left:'10px'});
+
+  });
+});
+</script> 
+
+<div id="a"><img src="images/snake1.jpg" height="400" width="400"></div>
+<div id="b"><img src="images/snake11.jpg" height="300" width="300"></div>
+<div id="c"><img src="images/lader.png" height="500" width="100"></div>
+<div id="d"><img src="images/1.png" height="300" width="100"></div>
+
+<div id="j" style="background:black;height:50px;width:50px;position:absolute;"></div>
+</body>
+</html>
